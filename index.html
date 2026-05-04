@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+
+        <p id="amount">Amount</p>
+        <div class="from">
+
+            <img id="from-flag" src="inr flag.png">
+            <select id="from-currency"></select>
+            <input type="number" value="94.91" id="from-amount">
+
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+        <p id="conv-amount">Converted Amount</p>
+        <div class="to">
+
+            <img id="to-flag" src="usd flag.png">
+            <select id="to-currency"></select>
+            <p id="to-amount">1</p>
+
+        </div>
+
+        <p id="final-text">1 INR = 0.011 USD</p>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
